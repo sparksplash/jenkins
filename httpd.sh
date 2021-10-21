@@ -15,5 +15,3 @@ cd /web/apr-util-1.6.1 ; sudo ./configure --prefix=/web/aprutil --with-apr=/web/
 cd /web/pcre-8.45 ; sudo ./configure --prefix=/web/pcre ; sudo make && sudo make install
 cd /web/httpd-2.4.51 ; sudo ./configure --prefix /usr/local/apache2 --with-apr=/web/apr --with-apr-util=/web/aprutil --with-pcre=/web/pcre ; sudo make && sudo make install
 sudo /usr/local/apache2/bin/apachectl start
-sudo firewall-cmd --add-port=80/tcp
-sudo firewall-cmd --reload
